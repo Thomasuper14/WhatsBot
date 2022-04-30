@@ -3,7 +3,7 @@ const execute = async (client,msg) => {
     if (!msg.to.includes("-")) {
         let chat = await msg.getChat();
         await chat.unmute(true);
-        msg.reply(`*🗣 Unmuted*\n\nYou have been unmuted\n\n _Powered by WhatsBot_`);
+        msg.reply(`*🗣 Smutato*\n\nSei stato smutato!\n\n _Powered by ot_`);
     }
 };
 
