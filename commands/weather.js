@@ -26,15 +26,15 @@ const execute = async (client, msg, args) => {
     var weather = data[0];
     await client.sendMessage(
       msg.to,
-      `*Today's Weather at ${weather.location.name}*\n` +
+      `*Il meteo oggi a ${weather.location.name}*\n` +
         "```" +
         weather.current.skytext +
         " (" +
         weather.current.temperature +
-        "°C)```\n*Feelslike:* " +
+        "°C)```\n*si sente come:* " +
         "```" +
         weather.current.feelslike +
-        "°C```\n*Humidity:* " +
+        "°C```\n*Umidità:* " +
         "```" +
         weather.current.humidity +
         "```"
