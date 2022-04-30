@@ -15,8 +15,8 @@ async function get(battery, phn_info) {
 
   return {
     msg:
-      `*Whatsbot*\n\nThis chat is Powered By *Whatsbot*\n\n*Battery:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Whatsbot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*Official Repository Url 👇*\n` +
-      "```https://github.com/tuhinpal/WhatsBot```",
+      `*Hypnobot*\n\nThis chat is Powered By *Hypnobot*\n\n*Batteria:* ${batttxt}\n*Device:* ${phn_info.device_manufacturer} ${phn_info.device_model}\n*WA Version:* ${phn_info.wa_version}\n*Hypnobot Version:* ${packageJson.version}\n*Pmpermit:* ${config.pmpermit_enabled}\n\n*Tiktok: @hypnosbs👇*\n` +
+      "```HypnoBot```",
     mimetype: "image/jpeg",
     data: Buffer.from(
       (
