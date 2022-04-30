@@ -25,7 +25,7 @@ const execute = async (client,msg) => {
         if (data == "error") {
             quotedMsg.reply(`Error occured while reading the image. Please make sure the image is clear.`);
         } else {
-            quotedMsg.reply(`*Extracted Text from the Image*  👇\n\n${data.parsedText}`);
+            quotedMsg.reply(`*Testo estratto dall'immagine*  👇\n\n${data.parsedText}`);
         }
     }
     
