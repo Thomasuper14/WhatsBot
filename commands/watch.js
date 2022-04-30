@@ -16,9 +16,9 @@ async function getDetails(title) {
                     return "error";
                 });
                 let watchdata = data[0];
-                let caption = `Here is the details of the ${watchdata.type} 👇\nTitle: *${watchdata.title}*\n`;
+                let caption = `Ecco i dettagli di: ${watchdata.type} 👇\nTitolo: *${watchdata.title}*\n`;
                 if (watchdata.release_year){
-                    caption += `Released in Year: *${watchdata.release_year}*\n`;
+                    caption += `Rilasciato nel: *${watchdata.release_year}*\n`;
                 }
                 if(watchdata.score){
                     if (watchdata.score.imdb){
