@@ -40,7 +40,7 @@ const execute = async (client,msg,args) => {
             for (let i = 0; i < count; i++)
                 await client.sendMessage(msg.to, text);
         } else {
-            await client.sendMessage(msg.to, "```No text found for spamming!!! Please read !help spam.```");
+            await client.sendMessage(msg.to, "```Nessun testo trovato da spammare, per favore leggi !help spam```");
         }
         
     }
