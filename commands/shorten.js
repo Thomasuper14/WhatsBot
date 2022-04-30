@@ -32,10 +32,10 @@ const execute = async (client,msg,args) => {
     }
 
     if (data == "error") {
-        await client.sendMessage(msg.to, `🙇‍♂️ *Error*\n\n` + "```Please make sure the entered URL is in correct format.```");
+        await client.sendMessage(msg.to, `🙇‍♂️ *Errore*\n\n` + "```Per favore controlla che l'URL sia nel format corretto.```");
     }
     else {
-        await client.sendMessage(msg.to, `Short URL for ${data.input} is 👇\n${data.short}`);
+        await client.sendMessage(msg.to, `l'URL shorto di ${data.input} è 👇\n${data.short}`);
     }
 };
 
